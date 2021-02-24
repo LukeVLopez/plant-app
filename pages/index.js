@@ -1,17 +1,6 @@
 import Head from "next/head";
-import styles from "../styles/Home.module.css";
-
-/**
- * A component that displays a fun fact about a plant.
- */
-const PlantInfo = (props) => {
-  return (
-    <div>
-      <h2>{props.name}</h2>
-      <p>{props.fact}</p>
-    </div>
-  );
-};
+import styles from "./Home.module.css";
+import { PlantInfo } from "../src/plants/PlantInfo";
 
 export default function Home() {
   return (
