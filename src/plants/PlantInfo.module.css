@@ -1,0 +1,11 @@
+.plantinfo {
+    max-width: 600px;
+}
+
+.plantinfo h2 {
+    color: darkgreen;
+}
+
+.fact {
+    font-style: italic;
+}
